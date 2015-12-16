@@ -39,7 +39,7 @@ public class MvcConfig extends WebMvcConfigurerAdapter {
      * @return
      */
     @Bean
-    public RequestContextFilter requestContextFilter() {
+    public RequestContextFilter requestContextFilterTwo() {
         logger.info("Instantiating RequestContextFilter bean");
         return new RequestContextFilter();
     }
